@@ -15,5 +15,12 @@ android {
     }
 }
 
+sourceSets {
+    main {
+        assets.srcDirs = ["$rootDir"]
+        assets.includes = ["index.html"]
+    }
+}
+
 dependencies {
 }
